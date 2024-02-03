@@ -1,0 +1,122 @@
+body{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: #e8e8e8;
+}
+.navbar-isaac{
+    padding: 0px;
+}
+.navbar-isaac>img{
+    height: 100%;
+    padding: 7px 15px;
+    width: auto;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #b9050b;
+    font-weight: 600;
+}
+.navbar-default .navbar-nav> li> a:hover, .navbar-default .navbar-nav> .active> a:hover, .navbar-default .navbar-nav> .active> a:focus{
+    color: white;
+    background-color: #b9050b;
+}
+#home, #contact{
+    padding: 80px 25px;
+    background: url(https://raw.githubusercontent.com/bobbrady/static-assets/master/images/sailboat-on-ocean.jpg);
+    background-position: 50% 50%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    text-align: center;
+}
+.page-view{
+    min-height: 100vh;
+}
+.page-view h4{
+    font-size: 1.6em;
+    margin-left: 10px;
+}
+.page-view h4> i{
+    vertical-align: middle;
+}
+.page-view h5{
+    font-size: 1.2em;
+}
+.page-view a{
+    color: #b90504;
+}
+#about, #skills, #service, #portfolio{
+    padding-top: 50px;
+}
+#portfolio{
+    padding-bottom: 50px;
+}
+h1.title{
+    padding-top: 1.8em;
+    font-size: 4em; 
+    font-family: Raleway, sans-serif;
+}
+.title{
+    font-family: Raleway, sans-serif;
+}
+.large-font{
+    font-size: 1.2em;
+}
+.page-title{
+    font-size: 2.6em;
+    font-family: Raleway, sans-serif;
+}
+.portfolio-title{
+    font-family: Raleway, sans-serif;
+    font-size: 2em;
+    color: #b90504;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.red{
+    color: #b90504;
+}
+.container-fluid{
+    padding-top: 90px;
+}
+#services ul, #skills ul{
+    width: auto;
+    display: inline-block;
+}
+#services ul>li, #skills ul>li{
+    text-align: left;
+}
+.fa-pencil, .fa-cogs, .fa-code, .fa-cubes, .fa-dashboard, .fa-certificates, .fa-flask{
+    font-size: 2.5em;
+    color: black;
+}
+.fa-envelope:hover, .fa-facebook:hover, .fa-github:hover, .fa-google-plus:hover, .fa-linkedin:hover, .fa-twitter:hover{
+    color: #777;
+}
+.fa-stack{
+    color: black;
+    font-size: 2em;
+}
+.bg-grey{
+    color: #333;
+}
+.container-fluid{
+    padding: 60px 50px;
+}
+
+/* Tablets */
+
+@media (max-width: 992px) {
+    .navbar ul li a{
+        font-size: 9em;
+        padding-left: 0;
+    }
+}
+/* Portrait phones and smaller */
+
+
+
+
+
+
+
