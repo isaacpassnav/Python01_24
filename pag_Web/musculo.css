@@ -113,7 +113,10 @@ h1.title{
     }
 }
 /* Portrait phones and smaller */
-
+.digiisaac-logo{
+    padding: auto;
+    height: 50;
+}
 
 
 
